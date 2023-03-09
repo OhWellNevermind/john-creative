@@ -1,0 +1,418 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+h1,h2,h3,p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.navigation-list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-item:not(:last-child)
+{
+    margin-right: 24px;
+}
+
+.navigation-link
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #000000;
+}
+
+/* Main */
+.about-container
+{
+    display: flex;
+}
+/* About Section */
+.about-first-part
+{
+    margin-right: 24px;
+}
+
+.about-title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.20;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.about-desc
+{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.50;
+    color: #21243D;
+    width: 548px;
+    margin-bottom: 24px;
+}
+
+.about-btn
+{
+    font-family: inherit;
+    background: #FF6464;
+    border-radius: 4px;
+    border-color: transparent;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 28px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.22;
+}
+
+.about-img-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 328px;
+    padding: 32px 0px;
+}
+
+/* Post Section */
+.section-post
+{
+    background: #EDF7FA;
+}
+
+.post-head
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.post-title 
+{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.67;
+    text-align: center;
+    color: #000000;
+}
+
+.post-link
+{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.22;
+    text-align: center;
+    color: #00A8CC;
+}
+
+.post-list
+{
+    display: flex;
+    padding: 24px 0px;
+    margin-bottom: 8px;
+}
+
+.post-list-item
+{
+    width: 438px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.post-list-item:not(:last-child)
+{
+    margin-right: 24px;
+}
+
+.post-list-title
+{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #0A2A42;
+    margin-bottom: 8px;
+}
+
+.post-list-date
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #636B78;
+    margin-bottom: 8px;
+}
+
+.post-list-text
+{
+    width: 406px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 16px 0px 0px;
+    color: #21243D;
+}
+
+/* Work */
+.work-head
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    margin-bottom: 6px;
+}
+
+.work-title
+{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.67;
+    text-align: center;
+}
+
+.work-link
+{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.22;
+    text-align: center;
+    color: #00A8CC;
+}
+
+.work-list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.work-list-item
+{
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 0px;
+    margin-bottom: 6px;
+}
+
+.work-list-img-container
+{
+    width: 275px;
+    padding: 8px 0px;
+    margin-right: 24px;
+}
+
+.work-list-text
+{
+    padding: 16px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-list-name
+{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #0A2A42;
+}
+
+.work-list-img 
+{
+    border-radius: 6px;
+}
+
+.work-list-date-and-type
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.work-list-date
+{
+    margin-right: 24px;
+    background: #2A326F;
+    border-radius: 8px;
+    padding: 4px 16px;
+    color: #FFFFFF;
+}
+
+.work-list-type
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8695A4;
+}
+
+.work-list-desc
+{
+    padding: 16px 0px 16px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #21243D;
+}
+
+/* Footer */
+.footer
+{
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.footer-list
+{
+    padding: 16px 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.footer-list-item:not(:last-child)
+{
+    margin-right: 24px;
+}
+
+.footer-text
+{
+    font-size: 14px;
+    line-height: 1.21;
+    text-align: center;
+    color: #678398;
+    padding-bottom: 51px;
+}
+
+/* Blog */
+/* blog.html */
+/* Main */
+.blog-list
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.blog-title
+{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    color: #000000;
+    padding-bottom: 16px;
+    margin-bottom: 6px;
+}
+
+.blog-list-item
+{
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    border-radius: 8px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.blog-list-item:not(:last-child)
+{
+    margin-bottom: 24px;
+}
+
+.blog-list-title
+{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #0A2A42;
+    margin-bottom: 8px;
+}
+
+.blog-list-date
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #636B78;
+    margin-bottom: 8px;
+}
+
+.blog-list-text
+{
+    width: 768px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #21243D;
+}
+
+/* Work */
+.work-header
+{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    color: #000000;
+    padding-bottom: 16px;
+    margin-bottom: 6px;
+}
+
+.work-item:not(:last-child)
+{
+    margin-bottom: 24px;
+}
